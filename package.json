@@ -1,0 +1,17 @@
+{
+    "name": "scss-reactive-nav",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "node-sass": "^6.0.1",
+        "sass": "^1.37.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "view": "node-sass --watch ./public/scss/app.scss ./public/css/style.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

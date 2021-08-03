@@ -1,0 +1,23 @@
+ 
+ 
+
+@import "./reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Gowun+Dodum&display=swap');
+html{
+    font-size: 18px;
+}
+body {
+    // overflow-x: hidden;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: 500;
+
+
+    @import "./widgets/index.scss";
+
+    //  @import "./widgets/onePage.scss";
+    //   @import "./widgets/twoPage.scss";
+    //  @import "./widgets/threePage.scss";
+    //  @import "./widgets/fourPage.scss";
+
+}
