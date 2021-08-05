@@ -1,0 +1,33 @@
+//데스크톱
+@media screen and (min-width: 1000px) {
+    .navbar {
+
+
+        .navbar_wrap {
+            display: flex;
+            width: 70%;
+            justify-content: space-between;
+
+
+            .navbar__logo {
+                width: 135px;
+
+            }
+
+            .navbar__list {
+                display: flex;
+                font-size: 17px;
+                font-weight: 700;
+
+                a {
+                    margin-left: 1.3rem;
+                    color: white;
+                }
+            }
+
+            .fas {
+                display: none;
+            }
+        }
+    }
+}

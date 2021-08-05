@@ -1,0 +1,35 @@
+//모바일
+@media (min-width:0px) {
+    .navbar {
+        height: 113px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        position: relative;
+
+        .navbar_wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 93vw;
+
+
+            .navbar__logo {
+                width: 20vw;
+
+            }
+
+            .navbar__list {
+                display: none;
+            }
+
+            .fas {
+
+
+                font-size: 6vw;
+                color: white;
+            }
+        }
+    }
+}
